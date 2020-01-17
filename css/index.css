@@ -188,4 +188,16 @@ footer nav a {
     background:dodgerblue;
 }
 
-/****** Box Colors *******/
+/****** header styles *******/
+.top-nav {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    font-size: 14px;
+    margin: 24px 32px 32px 0;
+}
+
+.top-nav a{
+    text-decoration: none;
+    color:black;
+}
