@@ -208,7 +208,7 @@ footer nav a {
 /*** About page styles ***/
 .header-row {
     border-bottom: 1px dashed black;
-    margin-bottom: 28px;
+   
     margin-top: 18px;
 }
 
@@ -216,3 +216,38 @@ footer nav a {
     margin-bottom: 12px;
     padding: 12px;
 }
+
+.about-content-row{
+    display:flex;
+    justify-content: space-around;
+    padding: 12px;
+}
+
+.about-content-box{
+    display: flex;
+    flex-direction: column;
+    width: 48%;
+    padding: 24px 0 12px 0;
+    border-bottom: 1px dashed black;
+}
+
+.about-content-box img {
+    width: 100%;
+}
+
+.about-content-text {
+   margin: 12px 0 12px 0;
+}
+
+.lm-btn{
+    background-color: transparent;
+    border:2px solid black;
+    border-radius: 8px;;
+    width: 33%;
+    padding: 8px;
+}
+
+.about-bttm-content{
+    margin: 24px 0;
+}
+
