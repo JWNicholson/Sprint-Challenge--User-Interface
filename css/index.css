@@ -251,3 +251,24 @@ footer nav a {
     margin: 24px 0;
 }
 
+
+/***** Stretch goal******/
+
+nav.top-nav a:hover {
+
+    animation: spread 1s ;/*pulse it one second */
+}
+    
+
+    @keyframes spread
+    {
+         0% {
+              box-shadow: 0 0 0 0px rgba(235, 4, 4, 0.2);/*star with red @ 2% transparency */
+         }
+         100% {
+              box-shadow: 0 0 0 35px rgba(0, 0, 0, 0); /*end with black @ 0 transparency (invisible) */
+         }
+    }
+    
+
+  
