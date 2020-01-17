@@ -201,3 +201,18 @@ footer nav a {
     text-decoration: none;
     color:black;
 }
+
+.home-header-image{
+ margin-bottom: 14px;
+}
+/*** About page styles ***/
+.header-row {
+    border-bottom: 1px dashed black;
+    margin-bottom: 28px;
+    margin-top: 18px;
+}
+
+.header-content{
+    margin-bottom: 12px;
+    padding: 12px;
+}
