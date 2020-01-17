@@ -112,6 +112,8 @@ p {
     justify-content: center;
 }
 
+
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -144,3 +146,129 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+/***john-nicholson start here ***/
+/****** Box Colors *******/
+#box-1 {
+    background: teal;
+}
+
+#box-2{
+    background:gold;
+}
+
+#box-3{
+    background:cadetblue;
+}
+
+#box-4{
+    background:coral;
+}
+
+#box-5{
+    background:crimson;
+}
+
+#box-6{
+    background:forestgreen;
+}
+
+#box-7{
+    background:darkorchid;
+}
+
+#box-8{
+    background:hotpink;
+}
+
+#box-9{
+    background:indigo;
+}
+
+#box-10{
+    background:dodgerblue;
+}
+
+/****** header styles *******/
+.top-nav {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    font-size: 14px;
+    margin: 24px 32px 32px 0;
+}
+
+.top-nav a{
+    text-decoration: none;
+    color:black;
+}
+
+.home-header-image{
+ margin-bottom: 14px;
+}
+/*** About page styles ***/
+.header-row {
+    border-bottom: 1px dashed black;
+   
+    margin-top: 18px;
+}
+
+.header-content{
+    margin-bottom: 12px;
+    padding: 12px;
+}
+
+.about-content-row{
+    display:flex;
+    justify-content: space-around;
+    padding: 12px;
+}
+
+.about-content-box{
+    display: flex;
+    flex-direction: column;
+    width: 48%;
+    padding: 24px 0 12px 0;
+    border-bottom: 1px dashed black;
+}
+
+.about-content-box img {
+    width: 100%;
+}
+
+.about-content-text {
+   margin: 12px 0 12px 0;
+}
+
+.lm-btn{
+    background-color: transparent;
+    border:2px solid black;
+    border-radius: 8px;;
+    width: 33%;
+    padding: 8px;
+}
+
+.about-bttm-content{
+    margin: 24px 0;
+}
+
+
+/***** Stretch goal******/
+
+nav.top-nav a:hover {
+
+    animation: spread 1s ;/*pulse it one second */
+}
+    
+
+    @keyframes spread
+    {
+         0% {
+              box-shadow: 0 0 0 0px rgba(235, 4, 4, 0.2);/*star with red @ 2% transparency */
+         }
+         100% {
+              box-shadow: 0 0 0 35px rgba(0, 0, 0, 0); /*end with black @ 0 transparency (invisible) */
+         }
+    }
+    
+
+  
